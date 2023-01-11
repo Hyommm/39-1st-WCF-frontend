@@ -33,7 +33,7 @@ export default function Main() {
   useEffect(() => {
     const slideTime = setTimeout(() => {
       slideIndex();
-    }, 5000);
+    }, 3000);
 
     return () => clearTimeout(slideTime);
   }, [currentIndex]);
